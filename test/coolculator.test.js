@@ -7,8 +7,8 @@ describe('Coolculator', function() {
   mm = new Coolculator()
 
   it('should add', function() {
-    result = mm.add(2, 3)
-    expect(result).to.equal(5)
+    result = mm.add(2, 3, 1)
+    expect(result).to.equal(6)
   })
 
   // Uncomment this 👇
@@ -87,5 +87,12 @@ describe('Coolculator', function() {
     result = a >=0 && a <=7 && Number.isInteger(a); 
     expect(result).to.equal(true);
   })
+
+  it('should return first index of the number', function(){
+    var array = [0, 5, 6, 6, 6, 8];
+    result = array.indexOf(6);
+    expect(result).to.equal(2);
+  })
+
 
 })
