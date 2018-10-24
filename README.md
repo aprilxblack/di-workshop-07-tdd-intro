@@ -68,8 +68,10 @@ Until now, we've been testing JavaScript's in-built functionality, which is kind
 Read The coolculator class and tests.
 
 **What methods does the Cooclulator currently implement?**
+Some external library?
 
 **Describe how the existing test works**
+It checks if the function `add()` from the Coolculator actually adds two numbers together
 
 **Change a value in the `add()` test so it fails.**
 Once you've seen it fail, revert your change so it's green again.
@@ -80,8 +82,10 @@ Once you've seen it fail, revert your change so it's green again.
 Now let's do some TDD! Uncomment the `multiply()` test.
 
 **What do you expect to happen when you run your tests?**
+They should fail because the `multiply()` function doesn't even exist
 
 **What actually happened when you ran your tests?**
+Yeah it told me that multiply is not a function
 
 **Add a method to the Coolculator so the test passes green**
 
